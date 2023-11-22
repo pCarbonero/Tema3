@@ -1,4 +1,4 @@
-package ejerciciosfunciones.ejercicios01;
+package ejerciciosfunciones.ejercicio01;
 
 
 public class Eco {
