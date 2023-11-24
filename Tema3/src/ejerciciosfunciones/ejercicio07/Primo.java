@@ -3,7 +3,7 @@ package ejerciciosfunciones.ejercicio07;
 
 public class Primo {
 
-	public static Boolean isPrimo(int num) {
+	public static boolean isPrimo(int num) {
 		boolean isP = true;
 		
 		for (int i = 2; i < Math.sqrt(num); i++) {			
