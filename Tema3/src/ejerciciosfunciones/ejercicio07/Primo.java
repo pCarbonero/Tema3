@@ -6,7 +6,7 @@ public class Primo {
 	public static boolean isPrimo(int num) {
 		boolean isP = true;
 		
-		for (int i = 2; i < Math.sqrt(num); i++) {			
+		for (int i = 2; i <= Math.sqrt(num); i++) {			
 			if (num%i == 0) {
 				isP = false;
 			}		
@@ -16,6 +16,7 @@ public class Primo {
 				isP = false;
 			}
 		}		
+		
 		return isP;
 	}
 }
