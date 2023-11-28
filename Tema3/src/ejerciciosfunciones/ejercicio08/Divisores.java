@@ -5,7 +5,7 @@ public class Divisores {
 	
 	public static int contadorDivisores(int num) {
 		int contador = 0;
-		boolean yes = false;
+		
 		
 		for (int i = 1; i <=num; i++) {
 			
