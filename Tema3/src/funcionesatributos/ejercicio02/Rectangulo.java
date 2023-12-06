@@ -10,6 +10,11 @@ public class Rectangulo {
 		this.ancho = ancho;
 	}
 	
+	//creamos un constructor sin parámetros como nos solicitan
+	public Rectangulo() {
+		
+	}
+	
 	double perimetro() {
 		return (alto * 2) + (ancho * 2);
 	}
