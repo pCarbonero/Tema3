@@ -9,6 +9,7 @@ public class Main {
 	public static void main(String[] args) {
 		int opc;
 		double num1, num2, res = 0;
+		//creamos una variable de la clase OPeraciones para crear un objeto mas tarde
 		Operaciones op;
 		// mostramos el menú
 		opc = menu();
@@ -16,8 +17,10 @@ public class Main {
 		num1 = pideNumero();
 		num2 = pideNumero();
 		
+		//creamos un objeto de la clase para llamar a las funciones de esta
 		op = new Operaciones(num1, num2);
 		
+		//switch que dependiendo del valor de opc llamará a una funcion distinta o imprimirá mensaje de fin
 		switch (opc) {
 		case 1: {
 			res = op.suma();
@@ -48,8 +51,6 @@ public class Main {
 		}
 		
 		System.out.println("El resultado es " + res);
-		// cerramos el escaner
-		//sc.close();
 	}// fin main()
 
 	// creamos la función menú que nos la mostrará y nos pedirá que elijamos una
