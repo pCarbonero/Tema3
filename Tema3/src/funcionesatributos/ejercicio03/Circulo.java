@@ -10,6 +10,12 @@ public class Circulo {
 		this.radio = radio;
 	}
 	
+	//creamos un constructor sin parámetros como nos solicitan
+	public Circulo() {
+		
+	}
+	
+	
 	//funcion para calcular el perímetro
 	double circunferencia() {
 		return 2*Math.PI*radio;
