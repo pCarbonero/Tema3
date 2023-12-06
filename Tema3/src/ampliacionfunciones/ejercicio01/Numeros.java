@@ -1,4 +1,4 @@
-package ampliacionfunciones;
+package ampliacionfunciones.ejercicio01;
 
 public class Numeros {
 	// creamos un atributo para la clase número
