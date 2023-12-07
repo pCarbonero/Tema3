@@ -47,27 +47,35 @@ public class Figuras {
 		}
 	}
 	
+	// creamos una función que dibujará el hexágono
 	void hexagono() {
+		// bucle para la primera mitad de la figura
 		for (int i = 0; i <= lado-1; i++) {
-			
+			// bucle que dibuja el número de espacios antes de dibujar los carácteres
 			for (int j = 2; j <= lado-i; j++) {
 				System.out.print(" ");			
 			}
+			// bucle que dibuja los carácteres
 			for (int j = 1; j <= lado+(i*2); j++) {
 				System.out.print(caracter);			
 			}
+			// salto de línea
 			System.out.println();
 			}//fin for 1
 		
+		// bucle para la segudna mitad
 		for (int i = 0; i <	lado-1; i++) {
+			// bucle que dibuja el número de espacios antes de dibujar los carácteres
 			for (int j = lado; j >= lado-i; j--) {
 				System.out.print(" ");		
 			}
+			// bucle que dibuja los carácteres
 			for (int j = 1; j <= lado+((lado-2)*2)-(i*2); j++) {
 				System.out.print(caracter);			
 			}
+			// salto de línea
 			System.out.println();
-		}
+		}//fin for i 2
 		
 		}//fin hexagono()
 	}
